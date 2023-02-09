@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: rgba(75, 2, 85, 0.534);
+            padding: 30px;
+            text-align: center;
+            font-size: 20px;
+            color: rgb(124, 24, 170);
+        }
+        nav{
+            float: left;
+            width: 20%;
+            height: 300px;
+            background-color: lightpink;
+            padding: 20px;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 80%;
+            background-color: mediumslateblue;
+            height: 300px;
+        }
+        section::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer{
+            background-color: powderblue;
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+        @media(max-width: 600px){
+            nav, article{
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>¡¡¡BITIES FANSESES!!!</h1>
+   </header>
+   <section>
+    <nav>
+        <ul>
+            <li><a href="#"></a>canciones</li>
+            <li><a href="#"></a>fotitos</li>
+            <li><a href="#"></a>info</li>
+        </ul>
+    </nav>
+    <article>
+        <h1>historia</h1>
+       <p>You in danger
+        You in danger
+        헷갈리게 하지 마
+        연락 부재중 unlock 수배 중
+        너란 여자 본심을 수색 중
+        고작 보내 준 게 문자 두세 줄
+        이게 내가 바랬던 연애 꿈?
+        파란만장 love story 다 어디 갔나?
+        Drama에 나온 주인공들 다 저리 가라
+        너 때문에 수백 번 쥐어 잡는 머리카락
+        너 담담 그저 당당 날 차 빵빵
+        뭐니 뭐니 난 네게 뭐니?
+        너보다 니 친구에게 전해 듣는 소식
+        원해 원해 huh 너를 원해
+        너란 여잔 사기꾼 내 맘을 흔든 범인
+        불이 붙기 전부터 내 맘 다 쓰고
+        일방적인 구애들 해 봤자 헛수고
+        너에게 난 그저 연인이 아닌 우정이
+        편했을지도 몰라 I'm a love loser
+        넌 내가 없는데 난 너로 가득해
+        미칠 것 같아 whoa whoa
+        근데 왜 이러는데 왜 바볼 만들어
+        나 이제 경고해 헷갈리게 하지 마
+        장난해 너? 도대체 내가 뭐야?
+        만만해 uh? 날 갖고 노는 거야?
+        너 지금 위험해 왜 나를 시험해?
+        왜 나를 시험해? 헷갈리게 하지 마
+        너 땜에 너무 아파</p>
+
+    </article>
+   </section>
+   <hr>
+   <footer>
+    <p>bitifanses &copy; 2023 - Mariana Gpe. Baez Felix 4AVP</p>
+   </footer>
+</body>
+</html>
