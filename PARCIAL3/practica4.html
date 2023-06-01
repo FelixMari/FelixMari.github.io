@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body style="background-color: pink;">
+    <h1 class="text-center">ARMY level</h1>
+    <div class="container">
+        <form action="practica4.php" method="POST">
+            Alumno: <input type="text" name="nombre" class="form-control" placeholder="Teclea tu nombre..." required> <br>
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: rgb(92, 27, 153);">¿Quien es el mayor del grupo?</li>
+                <li class="list-group-item"><input type="radio" name="pregunta1" value="a">Namjoon</li>
+                <li class="list-group-item"><input type="radio" name="pregunta1" value="b">Jungkook</li>
+                <li class="list-group-item"><input type="radio" name="pregunta1" value="c">Jin</li>
+            </ul>
+
+             <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: rgb(92, 27, 153);">¿Quien es el lider del grupo?</li>
+                <li class="list-group-item"><input type="radio" name="pregunta2" value="a">Namjoon</li>
+                <li class="list-group-item"><input type="radio" name="pregunta2" value="b">Hoseok</li>
+                <li class="list-group-item"><input type="radio" name="pregunta2" value="c">Taehyung</li>
+            </ul>
+
+             <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: rgb(92, 27, 153);">¿Quien es el menor del grupo?</li>
+                <li class="list-group-item"><input type="radio" name="pregunta3" value="a">Suga</li>
+                <li class="list-group-item"><input type="radio" name="pregunta3" value="b">Jungkook</li>
+                <li class="list-group-item"><input type="radio" name="pregunta3" value="c">Jimin</li>
+            </ul>
+
+             <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: rgb(92, 27, 153);">¿Cuando debutó la banda?</li>
+                <li class="list-group-item"><input type="radio" name="pregunta4" value="a">13 de junio de 2013</li>
+                <li class="list-group-item"><input type="radio" name="pregunta4" value="b">14 de julio de 2015</li>
+                <li class="list-group-item"><input type="radio" name="pregunta4" value="c">20 de diciembre de 2013</li>
+            </ul>
+
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: rgb(92, 27, 153);">¿Cual fue su primer album?</li>
+                <li class="list-group-item"><input type="radio" name="pregunta5" value="a">Dark & Wild</li>
+                <li class="list-group-item"><input type="radio" name="pregunta5" value="b">BE</li>
+                <li class="list-group-item"><input type="radio" name="pregunta5" value="c">2 cool 4 skool</li>
+            </ul>
+
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: rgb(92, 27, 153);">¿Cual es su cancion con mas reproducciones en YT?</li>
+                <li class="list-group-item"><input type="radio" name="pregunta6" value="a">DNA</li>
+                <li class="list-group-item"><input type="radio" name="pregunta6" value="b">Boy with luv</li>
+                <li class="list-group-item"><input type="radio" name="pregunta6" value="c">Dynamite</li>
+            </ul>
+
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: rgb(92, 27, 153);">¿Cuantas canciones tienen en promedio?</li>
+                <li class="list-group-item"><input type="radio" name="pregunta7" value="a">-100</li>
+                <li class="list-group-item"><input type="radio" name="pregunta7" value="b">+1000</li>
+                <li class="list-group-item"><input type="radio" name="pregunta7" value="c">+100</li>
+            </ul>
+
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: rgb(92, 27, 153);">¿Quienes conforman la rap line?</li>
+                <li class="list-group-item"><input type="radio" name="pregunta8" value="a">Namjoon, Jin y Taehyung</li>
+                <li class="list-group-item"><input type="radio" name="pregunta8" value="b">Jungkook, Jimin y Hoseok</li>
+                <li class="list-group-item"><input type="radio" name="pregunta8" value="c">Suga, Namjoon y Hoseok</li>
+            </ul>
+
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: rgb(92, 27, 153);">¿Quienes forman la vocal line?</li>
+                <li class="list-group-item"><input type="radio" name="pregunta9" value="a">Namjoon, RM, Jimin y V</li>
+                <li class="list-group-item"><input type="radio" name="pregunta9" value="b">Jungkook, Jin, Jimin y Taehyung</li>
+                <li class="list-group-item"><input type="radio" name="pregunta9" value="c">Jin, Suga y Hoseok</li>
+            </ul>
+
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style="background-color: rgb(92, 27, 153);">Color caracteristico usado por ARMY:</li>
+                <li class="list-group-item"><input type="radio" name="pregunta10" value="a">Rojo</li>
+                <li class="list-group-item"><input type="radio" name="pregunta10" value="b">Verde</li>
+                <li class="list-group-item"><input type="radio" name="pregunta10" value="c">Morado</li>
+            </ul><br>
+
+            <div>
+                <input type="submit" class="btn btn-primary" value="Calificar" style="background-color: rgb(133, 43, 145);">
+            </div>
+        </form>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery-3.6.3.js"></script>
+</body>
+</html>
