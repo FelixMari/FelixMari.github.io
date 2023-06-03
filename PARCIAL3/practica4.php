@@ -25,7 +25,7 @@ if($pregunta1 == "c"){
     echo"<p> La respuesta es (c)</p>";
     echo "<img src='mala.png' width='4%'><hr>";
 }
-echo "<h3> Pregunta 2, respuesta seleccioada: (".$pregunta1.")</h3>";
+echo "<h3> Pregunta 2, respuesta seleccioada: (".$pregunta2.")</h3>";
 if($pregunta2 == "a"){
     $calificacion ++;
     echo "<img src='buena.png' width='4%'><hr>";
@@ -33,7 +33,7 @@ if($pregunta2 == "a"){
     echo"<p> La respuesta es (a)</p>";
     echo "<img src='mala.png' width='4%'><hr>";
 }
-echo "<h3> Pregunta 3, respuesta seleccioada: (".$pregunta1.")</h3>";
+echo "<h3> Pregunta 3, respuesta seleccioada: (".$pregunta3.")</h3>";
 if($pregunta3 == "b"){
     $calificacion ++;
     echo "<img src='buena.png' width='4%'><hr>";
@@ -41,7 +41,7 @@ if($pregunta3 == "b"){
     echo"<p> La respuesta es (b)</p>";
     echo "<img src='mala.png' width='4%'><hr>";
 }
-echo "<h3> Pregunta 4, respuesta seleccioada: (".$pregunta1.")</h3>";
+echo "<h3> Pregunta 4, respuesta seleccioada: (".$pregunta4.")</h3>";
 if($pregunta4 == "a"){
     $calificacion ++;
     echo "<img src='buena.png' width='4%'><hr>";
@@ -49,7 +49,7 @@ if($pregunta4 == "a"){
     echo"<p> La respuesta es (a)</p>";
     echo "<img src='mala.png' width='4%'><hr>";
 }
-echo "<h3> Pregunta 5, respuesta seleccioada: (".$pregunta1.")</h3>";
+echo "<h3> Pregunta 5, respuesta seleccioada: (".$pregunta5.")</h3>";
 if($pregunta5 == "c"){
     $calificacion ++;
     echo "<img src='buena.png' width='4%'><hr>";
@@ -57,7 +57,7 @@ if($pregunta5 == "c"){
     echo"<p> La respuesta es (c)</p>";
     echo "<img src='mala.png' width='4%'><hr>";
 }
-echo "<h3> Pregunta 6, respuesta seleccioada: (".$pregunta1.")</h3>";
+echo "<h3> Pregunta 6, respuesta seleccioada: (".$pregunta6.")</h3>";
 if($pregunta6 == "b"){
     $calificacion ++;
     echo "<img src='buena.png' width='4%'><hr>";
@@ -65,7 +65,7 @@ if($pregunta6 == "b"){
     echo"<p> La respuesta es (b)</p>";
     echo "<img src='mala.png' width='4%'><hr>";
 }
-echo "<h3> Pregunta 7, respuesta seleccioada: (".$pregunta1.")</h3>";
+echo "<h3> Pregunta 7, respuesta seleccioada: (".$pregunta7.")</h3>";
 if($pregunta7 == "c"){
     $calificacion ++;
     echo "<img src='buena.png' width='4%'><hr>";
@@ -73,7 +73,7 @@ if($pregunta7 == "c"){
     echo"<p> La respuesta es (c)</p>";
     echo "<img src='mala.png' width='4%'><hr>";
 }
-echo "<h3> Pregunta 8, respuesta seleccioada: (".$pregunta1.")</h3>";
+echo "<h3> Pregunta 8, respuesta seleccioada: (".$pregunta8.")</h3>";
 if($pregunta8 == "c"){
     $calificacion ++;
     echo "<img src='buena.png' width='4%'><hr>";
@@ -81,7 +81,7 @@ if($pregunta8 == "c"){
     echo"<p> La respuesta es (c)</p>";
     echo "<img src='mala.png' width='4%'><hr>";
 }
-echo "<h3> Pregunta 9, respuesta seleccioada: (".$pregunta1.")</h3>";
+echo "<h3> Pregunta 9, respuesta seleccioada: (".$pregunta9.")</h3>";
 if($pregunta9 == "b"){
     $calificacion ++;
     echo "<img src='buena.png' width='4%'><hr>";
@@ -89,7 +89,7 @@ if($pregunta9 == "b"){
     echo"<p> La respuesta es (b)</p>";
     echo "<img src='mala.png' width='4%'><hr>";
 }
-echo "<h3> Pregunta 10, respuesta seleccioada: (".$pregunta1.")</h3>";
+echo "<h3> Pregunta 10, respuesta seleccioada: (".$pregunta10.")</h3>";
 if($pregunta10 == "c"){
     $calificacion ++;
     echo "<img src='buena.png' width='4%'><hr>";
