@@ -7,37 +7,40 @@
     <title>Practica 5</title>
     <style>
         input[type=text]{
-            width: 25%;
-            padding: 27px 40px;
+            width: 100%;
+           padding: 5px 8px;
             box-sizing: border-box;
-            font-size: 35px;
+            font-size: 40px;
+            border: 0;
+            text-align: center;
         }
         table, tr, td{
-            border: 2px solid black;
+            border: 1px solid black;
             border-collapse: collapse;
         }
     </style>
 </head>
-<body style="width: 18%;">
+<body style="width: 100%;">
     <h1>Juego del gato :D</h1><hr>
-    <form action="practica5.php" method="POST"></form>
-    <table>
+    <form action="practica5.php" method="POST">
+    <table style="width: 28%;">
         <tr>
-            <td><input type="text" name="cuadro[]" value="x"></td>
-            <td><input type="text" name="cuadro[]" value="o"></td>
-            <td><input type="text" name="cuadro[]" value="x"></td>
+            <td><input type="text" name="cuadro[]" value="X"></td>
+            <td><input type="text" name="cuadro[]" value="O"></td>
+            <td><input type="text" name="cuadro[]" value="X"></td>
         </tr>
         <tr>
-            <td><input type="text" name="cuadro[]" value="o"></td>
-            <td><input type="text" name="cuadro[]" value="x"></td>
-            <td><input type="text" name="cuadro[]" value="x"></td>
+            <td><input type="text" name="cuadro[]" value="O"></td>
+            <td><input type="text" name="cuadro[]" value="X"></td>
+            <td><input type="text" name="cuadro[]" value="O"></td>
         </tr>
         <tr>
-            <td><input type="text" name="cuadro[]" value="o"></td>
-            <td><input type="text" name="cuadro[]" value="o"></td>
-            <td><input type="text" name="cuadro[]" value="x"></td>
+            <td><input type="text" name="cuadro[]" value="O"></td>
+            <td><input type="text" name="cuadro[]" value="O"></td>
+            <td><input type="text" name="cuadro[]" value="X"></td>
         </tr>
     </table><br>
     <input type="submit" value="Revisar">
+</form>
 </body>
 </html>
