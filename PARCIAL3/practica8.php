@@ -54,7 +54,7 @@
                 <?php
                 for($i=0; $i<16; $i++){
                     $numero = rand(1,54);
-                    echo "<div class='col-3 p-0'><img src='fotos_loteria/".$numero.".jpeg' class='img-thumbnail'></div>";
+                    echo "<div class='col-3 p-0'><img src='fotos_loteria/".$carta1[$i].".jpeg' class='img-thumbnail'></div>";
                 }
                 ?>
                 </div>
@@ -64,12 +64,14 @@
                 <?php
                 for($i=0; $i<16; $i++){
                     $numero = rand(1,54);
-                    echo "<div class='col-3 p-0'><img src='fotos_loteria/".$numero.".jpeg' class='img-thumbnail'></div>";
+                    echo "<div class='col-3 p-0'><img src='fotos_loteria/".$carta2[$i].".jpeg' class='img-thumbnail'></div>";
                 }
                 ?>
                 </div>
             </div>
         </div>
+        <input type="hidden" name="carta1[]" value="<?php echo $carta1 ?>">
+        <input type="hidden" name="carta2[]" value="<?php echo $carta2 ?>">
         </form>
     </div>
 </body>
